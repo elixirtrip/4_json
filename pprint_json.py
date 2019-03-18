@@ -14,8 +14,8 @@ def load_data(file_path):
             return None
 
 
-def pretty_print_json(data):
-    print(json.dumps(data, indent=4))
+def pretty_print_json(python_object_data):
+    print(json.dumps(python_object_data, indent=4))
 
 
 def get_console_args():
@@ -37,7 +37,7 @@ def get_console_args():
 
 if __name__ == '__main__':
     parse_args = get_console_args()
-    data = load_data(parse_args.file_path)
-    if data is None:
+    python_object_data = load_data(parse_args.file_path)
+    if python_object_data is None:
         sys.exit('File not found or data is not in json format')
-    pretty_print_json(data)
+    pretty_print_json(python_object_data)
