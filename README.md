@@ -6,11 +6,10 @@ This script will beautify compact json data. Output will be more readebl and loo
 
 You have to specify a file path with json compact data after the name of the script.
 
-Example of script launch on Linux, Python 3.5: # possibly requires
- call of python3 executive instead of jast python
+Example of script launch on Linux, Python 3.5:
 ```bash
 
-$ python pprint_json.py <path to file>
+$ python pprint_json.py <path to file>  # possibly requires call of python3 executive instead of jast python
 {
     "features": [
         {
