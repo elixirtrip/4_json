@@ -1,10 +1,10 @@
 # Prettify JSON
 
-This script will beautify compact json data. Output will be more readebl and look pretti.
+This script will beautify compact JSON data. Output will be more readable and look pretty.
 
 # Quickstart
 
-You have to specify a file path with json compact data after the name of the script.
+You have to specify a file path with JSON compact data after the name of the script.
 
 Example of script launch on Linux, Python 3.5:
 ```bash
